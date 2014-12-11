@@ -1,1 +1,7 @@
+# mac system file
 .DS_Store
+# phantom to grap data
+phantomjs
+outputJSON.js
+
+booksByReadEndTime.json
