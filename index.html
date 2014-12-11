@@ -1,66 +1,39 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content=" book : Books that I am interesting...">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title> book</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/duckscofield/_book">View on GitHub</a>
-
-          <h1 id="project_title"> book</h1>
-          <h2 id="project_tagline">Books that I am interesting...</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/duckscofield/_book/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/duckscofield/_book/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <ul>
-<li>ISBN : books, brochures and paper</li>
-<li>iamges : above cover</li>
-</ul>
-
-<p>Knowledge is power, I like reading and sharing I learned.</p>
-
-<p>What a pity is...the speed what I buy is more than what I read.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright"> book maintained by <a href="https://github.com/duckscofield">duckscofield</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-000000-01");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Timeline</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <div id="readbook-timeline"></div>
+  <!-- jQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!-- BEGIN TimelineJS -->
+    <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+    <script>
+        $(document).ready(function() {
+            createStoryJS({
+        type          : 'timeline',
+        width         : '100%',
+        height        : $(window).height(),
+        source        : 'booksByReadEndTime.json',
+        hash_bookmark : true,
+        embed_id      : 'readbook-timeline'
+            });
+        });
+    </script>
+    <!-- END TimelineJS -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-000000-01");
+        pageTracker._trackPageview();
+    } catch(err) {}
+    </script>
+</body>
 </html>
