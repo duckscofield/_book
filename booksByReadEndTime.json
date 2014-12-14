@@ -6,7 +6,7 @@
     "date": [
       {
         "asset": {
-          "credit": "ISBN <a href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2011.978-957-442-939-4.md\">978-957-442-939-4</a>",
+          "credit": "ISBN <a target=\"_blank\" href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2011.978-957-442-939-4.md\">978-957-442-939-4</a>",
           "media": "https://github.com/duckscofield/book/raw/master/images/2011.978-957-442-939-4.jpg",
           "thumbnail": "https://github.com/duckscofield/book/raw/master/images/2011.978-957-442-939-4.jpg"
         },
@@ -17,7 +17,7 @@
       },
       {
         "asset": {
-          "credit": "ISBN <a href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-957-13-5845-1.md\">978-957-13-5845-1</a>",
+          "credit": "ISBN <a target=\"_blank\" href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-957-13-5845-1.md\">978-957-13-5845-1</a>",
           "media": "https://github.com/duckscofield/book/raw/master/images/2014.978-957-13-5845-1.jpg",
           "thumbnail": "https://github.com/duckscofield/book/raw/master/images/2014.978-957-13-5845-1.jpg"
         },
@@ -28,7 +28,7 @@
       },
       {
         "asset": {
-          "credit": "ISBN <a href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-986-134-238-2.md\">2014.978-986-134-238-2</a>",
+          "credit": "ISBN <a target=\"_blank\" href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-986-134-238-2.md\">2014.978-986-134-238-2</a>",
           "media": "https://github.com/duckscofield/book/raw/master/images/2014.978-986-134-238-2.jpg",
           "thumbnail": "https://github.com/duckscofield/book/raw/master/images/2014.978-986-134-238-2.jpg"
         },
@@ -39,7 +39,7 @@
       },
       {
         "asset": {
-          "credit": "ISBN <a href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-986-5775-84-1.md\">978-986-5775-84-1</a>",
+          "credit": "ISBN <a target=\"_blank\" href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-986-5775-84-1.md\">978-986-5775-84-1</a>",
           "media": "https://github.com/duckscofield/book/raw/master/images/2014.978-986-5775-84-1.jpg",
           "thumbnail": "https://github.com/duckscofield/book/raw/master/images/2014.978-986-5775-84-1.jpg"
         },
@@ -50,7 +50,7 @@
       },
       {
         "asset": {
-          "credit": "ISBN <a href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-986-6228-62-9.md\">978-986-6228-62-9</a>",
+          "credit": "ISBN <a target=\"_blank\" href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.978-986-6228-62-9.md\">978-986-6228-62-9</a>",
           "media": "https://github.com/duckscofield/book/raw/master/images/2014.978-986-6228-62-9.jpg",
           "thumbnail": "https://github.com/duckscofield/book/raw/master/images/2014.978-986-6228-62-9.jpg"
         },
@@ -61,7 +61,7 @@
       },
       {
         "asset": {
-          "credit": "ISBN <a href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.maserati.11.08.md\"></a>",
+          "credit": "ISBN <a target=\"_blank\" href=\"https://github.com/duckscofield/_book/blob/master/ISBN/2014.maserati.11.08.md\"></a>",
           "media": "https://github.com/duckscofield/book/raw/master/images/2014.maserati.11.08.1.jpg",
           "thumbnail": "https://github.com/duckscofield/book/raw/master/images/2014.maserati.11.08.1.jpg"
         },
