@@ -4,12 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Timeline</title>
-    <style>
-    .vco-storyjs .vco-feature h3,
-    .vco-storyjs p {
-        font-family: 'Microsoft JhengHei';
-    }
-    </style>
 </head>
 <body>
   <div id="readbook-timeline"></div>
@@ -29,6 +23,8 @@
                 start_at_end      : true,
                 embed_id          : 'readbook-timeline'
             });
+            // orerwrite default
+            $('.vco-feature h3, .vco-storyjs p').css('font-family', 'Microsoft JhengHei');
         });
     </script>
     <!-- END TimelineJS -->
